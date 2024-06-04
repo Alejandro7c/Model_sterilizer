@@ -6,7 +6,7 @@ This model represents the model of a tuna can sterilizer, it contains several co
 - [Carts generation](sources/Carts.el)
 - [Sterilizer](sources/Sterilizer_ext_matrix_POD.el)
 - [Steam valve](sources/Valve.el)
-- [Sources](sources/sources.el)
+- [Sources](sources/Sources.el)
 - [Call](sources/Latas_DLL.el) to C external functions
 
 To run the experiment execute Sterilization_unit->par1->exp1
