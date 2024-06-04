@@ -3,9 +3,11 @@ Mathematical model of sterilizer of cans
 This model represents the model of a tuna can sterilizer, it contains several components.
 - Physicochemical components
 - Ports to connect components
-- Carts generation
-- Steam valve
-- Sources
+- Carts generation (Sources/Carts.el)
+- Sterilizer (Sources/Sterilizer_ext_matrix_POD.el)
+- Steam valve (Sorces/Valve.el)
+- Sources (Sorces/sources.el)
+
 To run the experiment execute Sterilization_unit->par1->exp1
 The matrix calculations to perform apply the Proper Orthogonal Decomposition (POD) method has been implemented in an external C function.
 This implementation of the model is based on the Matlab models from:
