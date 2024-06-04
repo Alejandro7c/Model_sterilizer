@@ -1,8 +1,8 @@
 /*-----------------------------------------------------------------------------------------
  LIBRARY: STERILIZER
- FILE: Sterilizer_ext_matrix_POD_Santos
+ FILE: Sterilizer_ext_matrix_POD
  CREATION DATE: 16/04/2021
- Componente esterilizador que permite escoger el producto y calcula las POD para cada un ode los productos
+ Componente esterilizador que permite escoger el producto y calcula las POD para cada ode los productos
 -----------------------------------------------------------------------------------------*/
 
 USE MATH
