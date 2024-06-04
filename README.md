@@ -5,9 +5,9 @@ This model represents the model of a tuna can sterilizer, it contains several co
 - [Ports to connect components](sources/Ports.el)
 - [Carts generation](sources/Carts.el)
 - [Sterilizer](sources/Sterilizer_ext_matrix_POD.el)
-- [Steam valve](sorces/Valve.el)
-- [Sources](sorces/sources.el)
-- [Call](sorces/Latas_DLL.el) to C external functions
+- [Steam valve](sources/Valve.el)
+- [Sources](sources/sources.el)
+- [Call](sources/Latas_DLL.el) to C external functions
 
 To run the experiment execute Sterilization_unit->par1->exp1
 The matrix calculations to perform apply the Proper Orthogonal Decomposition (POD) method has been implemented in an external C function.
