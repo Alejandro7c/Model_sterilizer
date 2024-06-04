@@ -1,7 +1,7 @@
 # Model_sterilizer
 Mathematical model of sterilizer of cans
 This model represents the model of a tuna can sterilizer, it contains several components.
-- [Physicochemical properties] (sources/Propiedades.el)
+- [Physicochemical properties](sources/Propiedades.el)
 - [Ports to connect components](sources/Ports.el)
 - [Carts generation](sources/Carts.el)
 - [Sterilizer](sources/Sterilizer_ext_matrix_POD.el)
