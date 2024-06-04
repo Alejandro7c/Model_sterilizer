@@ -1,0 +1,140 @@
+<UANodeSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd" xmlns:s1="https://ecosimpro.com/test/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Aliases>
+  <Alias Alias="Integer">i=6</Alias>
+  <Alias Alias="Double">i=11</Alias>
+  <Alias Alias="String">i=12</Alias>
+  <Alias Alias="Method">i=276</Alias>
+  <Alias Alias="Organizes">i=35</Alias>
+  <Alias Alias="HasModellingRule">i=37</Alias>
+  <Alias Alias="HasTypeDefinition">i=40</Alias>
+  <Alias Alias="HasSubtype">i=45</Alias>
+  <Alias Alias="HasComponent">i=47</Alias>
+</Aliases>
+<UAObject NodeId="ns=2;s=server_information" BrowseName="2:server_information">
+  <DisplayName>server_information</DisplayName>
+  <References>
+  </References>
+</UAObject>
+<UAObject NodeId="ns=2;s=server_variables" BrowseName="2:server_variables">
+  <DisplayName>server_variables</DisplayName>
+  <References>
+  </References>
+</UAObject>
+<UAObject NodeId="ns=2;s=server_methods" BrowseName="2:server_methods">
+  <DisplayName>server_methods</DisplayName>
+  <References>
+  </References>
+</UAObject>
+<UAObject NodeId="ns=2;s=server_commands" BrowseName="2:server_commands">
+  <DisplayName>server_commands</DisplayName>
+  <References>
+  </References>
+</UAObject>
+<UAObject NodeId="ns=2;s=server_parameters" BrowseName="2:server_parameters">
+  <DisplayName>server_parameters</DisplayName>
+  <References>
+  </References>
+</UAObject>
+<UAObject NodeId="ns=2;s=server_diagnosis" BrowseName="2:server_diagnosis">
+  <DisplayName>server_diagnosis</DisplayName>
+  <References>
+  </References>
+</UAObject>
+<UAVariable DataType="Integer" ParentNodeId="ns=2;s=server_variables" NodeId="ns=4;s=Cart_storage_1.cart_in" BrowseName="4:Cart_storage_1.cart_in" UserAccessLevel="3" AccessLevel="3">
+  <DisplayName>Cart_storage_1.cart_in</DisplayName>
+  <Value>
+    <uax:Integer>0</uax:Integer>
+  </Value>
+</UAVariable>
+<UAVariable DataType="Double" ParentNodeId="ns=2;s=server_variables" NodeId="ns=4;s=Cart_storage_1.start.signal" BrowseName="4:Cart_storage_1.start.signal" UserAccessLevel="3" AccessLevel="3">
+  <DisplayName>Cart_storage_1.start.signal</DisplayName>
+  <Value>
+    <uax:Double>0</uax:Double>
+  </Value>
+</UAVariable>
+<UAVariable DataType="Double" ParentNodeId="ns=2;s=server_variables" NodeId="ns=4;s=Cart_storage_1.v_carros" BrowseName="4:Cart_storage_1.v_carros" UserAccessLevel="3" AccessLevel="3">
+  <DisplayName>Cart_storage_1.v_carros</DisplayName>
+  <Value>
+    <uax:Double>0</uax:Double>
+  </Value>
+</UAVariable>
+<UAVariable DataType="Double" ParentNodeId="ns=2;s=server_variables" NodeId="ns=4;s=Unit_Sterilizer_1.st1.TR" BrowseName="4:Unit_Sterilizer_1.st1.TR" UserAccessLevel="1" AccessLevel="1">
+  <DisplayName>Unit_Sterilizer_1.st1.TR</DisplayName>
+  <Value>
+    <uax:Double>0</uax:Double>
+  </Value>
+</UAVariable>
+<UAVariable DataType="Double" ParentNodeId="ns=2;s=server_variables" NodeId="ns=4;s=Unit_Sterilizer_1.st1.batch_in_ster.signal" BrowseName="4:Unit_Sterilizer_1.st1.batch_in_ster.signal" UserAccessLevel="3" AccessLevel="3">
+  <DisplayName>Unit_Sterilizer_1.st1.batch_in_ster.signal</DisplayName>
+  <Value>
+    <uax:Double>0</uax:Double>
+  </Value>
+</UAVariable>
+<UAVariable DataType="Double" ParentNodeId="ns=2;s=server_variables" NodeId="ns=4;s=Unit_Sterilizer_1.st1.batch_ready.signal" BrowseName="4:Unit_Sterilizer_1.st1.batch_ready.signal" UserAccessLevel="3" AccessLevel="3">
+  <DisplayName>Unit_Sterilizer_1.st1.batch_ready.signal</DisplayName>
+  <Value>
+    <uax:Double>0</uax:Double>
+  </Value>
+</UAVariable>
+<UAVariable DataType="Double" ParentNodeId="ns=2;s=server_variables" NodeId="ns=4;s=CINT" BrowseName="4:CINT" UserAccessLevel="3" AccessLevel="3">
+  <DisplayName>CINT</DisplayName>
+  <Value>
+    <uax:Double>0</uax:Double>
+  </Value>
+</UAVariable>
+<UAVariable DataType="Double" ParentNodeId="ns=2;s=server_variables" NodeId="ns=4;s=TIME" BrowseName="4:TIME" UserAccessLevel="3" AccessLevel="3">
+  <DisplayName>TIME</DisplayName>
+  <Value>
+    <uax:Double>0</uax:Double>
+  </Value>
+</UAVariable>
+<UAVariable DataType="Double" ParentNodeId="ns=2;s=server_variables" NodeId="ns=4;s=TSTOP" BrowseName="4:TSTOP" UserAccessLevel="3" AccessLevel="3">
+  <DisplayName>TSTOP</DisplayName>
+  <Value>
+    <uax:Double>0</uax:Double>
+  </Value>
+</UAVariable>
+<UAVariable DataType="Method" ParentNodeId="ns=2;s=server_methods" NodeId="ns=5;s=method_reset" BrowseName="5:method_reset" UserAccessLevel="3" AccessLevel="3">
+  <DisplayName>method_reset</DisplayName>
+</UAVariable>
+<UAVariable DataType="Method" ParentNodeId="ns=2;s=server_methods" NodeId="ns=5;s=method_run" BrowseName="5:method_run" UserAccessLevel="3" AccessLevel="3">
+  <DisplayName>method_run</DisplayName>
+</UAVariable>
+<UAVariable DataType="Method" ParentNodeId="ns=2;s=server_methods" NodeId="ns=5;s=method_integ_cint" BrowseName="5:method_integ_cint" UserAccessLevel="3" AccessLevel="3">
+  <DisplayName>method_integ_cint</DisplayName>
+</UAVariable>
+<UAVariable DataType="Method" ParentNodeId="ns=2;s=server_methods" NodeId="ns=5;s=method_restore_state" BrowseName="5:method_restore_state" UserAccessLevel="3" AccessLevel="3">
+  <DisplayName>method_restore_state</DisplayName>
+</UAVariable>
+<UAVariable DataType="Method" ParentNodeId="ns=2;s=server_methods" NodeId="ns=5;s=method_save_state" BrowseName="5:method_save_state" UserAccessLevel="3" AccessLevel="3">
+  <DisplayName>method_save_state</DisplayName>
+</UAVariable>
+<UAVariable DataType="Integer" ParentNodeId="ns=2;s=server_commands" NodeId="ns=6;s=command_reset" BrowseName="6:command_reset" UserAccessLevel="3" AccessLevel="3">
+  <DisplayName>command_reset</DisplayName>
+</UAVariable>
+<UAVariable DataType="Integer" ParentNodeId="ns=2;s=server_commands" NodeId="ns=6;s=command_run" BrowseName="6:command_run" UserAccessLevel="3" AccessLevel="3">
+  <DisplayName>command_run</DisplayName>
+</UAVariable>
+<UAVariable DataType="Integer" ParentNodeId="ns=2;s=server_commands" NodeId="ns=6;s=command_integ_cint" BrowseName="6:command_integ_cint" UserAccessLevel="3" AccessLevel="3">
+  <DisplayName>command_integ_cint</DisplayName>
+</UAVariable>
+<UAVariable DataType="Integer" ParentNodeId="ns=2;s=server_parameters" NodeId="ns=7;s=parameter_verbosity" BrowseName="7:parameter_verbosity" UserAccessLevel="3" AccessLevel="3">
+  <DisplayName>parameter_verbosity</DisplayName>
+</UAVariable>
+<UAVariable DataType="Integer" ParentNodeId="ns=2;s=server_parameters" NodeId="ns=7;s=parameter_rt_factor" BrowseName="7:parameter_rt_factor" UserAccessLevel="3" AccessLevel="3">
+  <DisplayName>parameter_rt_factor</DisplayName>
+</UAVariable>
+<UAVariable DataType="Integer" ParentNodeId="ns=2;s=server_diagnosis" NodeId="ns=8;s=diagnosis_cint_rt_ok" BrowseName="8:diagnosis_cint_rt_ok" UserAccessLevel="3" AccessLevel="3">
+  <DisplayName>diagnosis_cint_rt_ok</DisplayName>
+</UAVariable>
+<UAVariable DataType="Double" ParentNodeId="ns=2;s=server_diagnosis" NodeId="ns=8;s=diagnosis_cint_rt_factor" BrowseName="8:diagnosis_cint_rt_factor" UserAccessLevel="3" AccessLevel="3">
+  <DisplayName>diagnosis_cint_rt_factor</DisplayName>
+</UAVariable>
+<UAVariable DataType="Integer" ParentNodeId="ns=2;s=server_diagnosis" NodeId="ns=8;s=diagnosis_cint_error_code" BrowseName="8:diagnosis_cint_error_code" UserAccessLevel="3" AccessLevel="3">
+  <DisplayName>diagnosis_cint_error_code</DisplayName>
+</UAVariable>
+<UAVariable DataType="String" ParentNodeId="ns=2;s=server_diagnosis" NodeId="ns=8;s=diagnosis_cint_error_msg" BrowseName="8:diagnosis_cint_error_msg" UserAccessLevel="3" AccessLevel="3">
+  <DisplayName>diagnosis_cint_error_msg</DisplayName>
+</UAVariable>
+</UANodeSet>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE sym SYSTEM "DTDFILE_FULLPATH">
+
+<palette version="1.2.0" sx="480" sy="320" aliasingInShapes="true" aliasingInUnitSymbols="true" simulation-status="allshowed" >
+
+	<grid enabled="true" snap="true" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="4" margin="true" />
+
+	<componentType id="Fuente_vapor" >
+
+		<polygon id="Polygon_2" points="60,88 104,88 116,100 104,112 60,112" color="255,0,0"  />
+
+		<port id="f_out" library="STERILIZER" type="vapor"  hotPort="f_out" >
+		
+				<symbol dx="124" dy="100" onLabel="true" />
+		
+				<label cx="18" cy="12" dx="132" dy="88" />
+		
+		</port>
+
+		<editor used="false">
+		</editor>
+
+	</componentType>
+</palette>

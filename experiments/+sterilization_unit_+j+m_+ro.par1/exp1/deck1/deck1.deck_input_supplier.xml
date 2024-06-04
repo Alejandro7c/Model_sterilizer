@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DeckSupplierInput version="1.0">
+<vars>
+ <var id="Cart_storage_1.cart_in" deckin="PUBLIC" value="0"/>
+ <var id="Cart_storage_1.start.signal" deckin="PUBLIC" value="0"/>
+ <var id="Cart_storage_1.v_carros" deckin="PUBLIC" value="0"/>
+ <var id="Unit_Sterilizer_1.st1.batch_in_ster.signal" deckin="PUBLIC" value="0"/>
+ <var id="Unit_Sterilizer_1.st1.batch_ready.signal" deckin="PUBLIC" value="0"/>
+</vars>
+</DeckSupplierInput>

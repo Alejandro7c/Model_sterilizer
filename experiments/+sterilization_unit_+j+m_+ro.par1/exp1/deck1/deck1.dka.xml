@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DeckSupplierConfig version="5.6">
+<data>
+ <var id="Cart_storage_1.cart_in" type="INTEGER" category="DISCRETE" inputUnits="" inputCandidates="" inputValue="0" deckin="PUBLIC" deckout="PUBLIC" control="FALSE" controlValues="" pos="" idFmi="0"/>
+ <var id="Cart_storage_1.start.signal" type="REAL" category="BOUNDARY" inputUnits="" inputCandidates="" inputValue="0" deckin="PUBLIC" deckout="PUBLIC" control="FALSE" controlValues="" pos="" idFmi="0"/>
+ <var id="Cart_storage_1.v_carros" type="REAL" category="BOUNDARY" inputUnits="" inputCandidates="" inputValue="0" deckin="PUBLIC" deckout="PUBLIC" control="FALSE" controlValues="" pos="" idFmi="0"/>
+ <var id="Unit_Sterilizer_1.st1.TR" type="REAL" category="DYNAMIC" inputUnits="" inputCandidates="" inputValue="0" deckin="NO" deckout="PUBLIC" control="FALSE" controlValues="" pos="" idFmi="0"/>
+ <var id="Unit_Sterilizer_1.st1.batch_in_ster.signal" type="REAL" category="BOUNDARY" inputUnits="" inputCandidates="" inputValue="0" deckin="PUBLIC" deckout="PUBLIC" control="FALSE" controlValues="" pos="" idFmi="0"/>
+ <var id="Unit_Sterilizer_1.st1.batch_ready.signal" type="REAL" category="BOUNDARY" inputUnits="" inputCandidates="" inputValue="0" deckin="PUBLIC" deckout="PUBLIC" control="FALSE" controlValues="" pos="" idFmi="0"/>
+</data>
+<info>
+ <swmode id=""/>
+ <type id="deck_opcua"/>
+ <mode id="auto"/>
+ <usert id="no"/>
+ <usecardpackbinary id="yes"/>
+ <usecardpackfile id="no"/>
+ <uselog id="no"/>
+ <version id="1.0"/>
+ <description id="<center><p><b>Customer Deck Example</b></p><p>This deck has been created as an example of deck generation capabilities</p></center>"/>
+ <supplier id=""/>
+ <customer id=""/>
+ <subject id=""/>
+ <password id=""/>
+ <featureName id=""/>
+ <platforms id="win64_vc2017"/>
+ <help id="<center><p><b>Usage help</b></p></center><p>This deck includes two tabs:</p><ul><li><b>Information</b>: it contains several data related to deck release.</li> <li><b>Simulation</b>: Input and Output values.</li> </ul> <p>Once the input values have been typed in, click on the <b>play</b> button to execute the calculation. Output values will be updated with their new values. To execute a new calculation, just click the <b>load</b> button, change the input values and click on the <b>play</b> button once again.</p> <p>The simulation can also be stopped and paused.</p>"/>
+ <folders>
+ </folders>
+ <filepaths>
+ </filepaths>
+ <fileswithfolder>
+ </fileswithfolder>
+</info>
+<simulation_settings version="1.0">
+</simulation_settings>
+<specific_opcua>
+ <opcuaport id="16700"/>
+</specific_opcua>
+</DeckSupplierConfig>

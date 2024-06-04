@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<experiment version="1.4.0">
+	<experimentViews>
+		<tab name="Tab_1">
+			<plotWindow title="Plot_4" x="550" y="466" dx="550" dy="233">
+				<plot id="Plot_4" graphType="plot_x_y">
+						<title value=""/>
+						<axeX variableName="TIME">
+							<titleAxe value="TIME"/>
+							<scale scaleType="auto"/>
+						</axeX>
+						<axeY>
+							<titleAxe value=""/>
+							<scale scaleType="auto"/>
+						</axeY>
+						<chartStyles>
+							<var name="Cart_storage_1.flag" nick=""/>
+						</chartStyles>
+					</plot>
+			</plotWindow>
+			<plotWindow title="Plot_3" x="550" y="233" dx="550" dy="233">
+				<plot id="Plot_3" graphType="plot_x_y">
+						<title value=""/>
+						<axeX variableName="TIME">
+							<titleAxe value="TIME"/>
+							<scale scaleType="auto"/>
+						</axeX>
+						<axeY>
+							<titleAxe value=""/>
+							<scale scaleType="auto"/>
+						</axeY>
+						<chartStyles>
+							<var name="Unit_Sterilizer_1.st1.TR" nick=""/>
+							<var name="Unit_Sterilizer_1.st1.Trm" nick=""/>
+						</chartStyles>
+					</plot>
+			</plotWindow>
+			<plotWindow title="Plot_5" x="550" y="0" dx="550" dy="233">
+				<plot id="Plot_5" graphType="plot_x_y">
+						<title value=""/>
+						<axeX variableName="TIME">
+							<titleAxe value="TIME"/>
+							<scale scaleType="auto"/>
+						</axeX>
+						<axeY>
+							<titleAxe value=""/>
+							<scale scaleType="auto"/>
+						</axeY>
+						<chartStyles>
+							<var name="Unit_Sterilizer_1.st1.batch_in_ster.signal" nick=""/>
+							<var name="Unit_Sterilizer_1.st1.batch_ready.signal" nick=""/>
+							<var name="Unit_Sterilizer_1.st1.start.signal" nick=""/>
+						</chartStyles>
+					</plot>
+			</plotWindow>
+			<plotWindow title="Plot_1" x="0" y="350" dx="550" dy="350">
+				<plot id="Plot_1" graphType="plot_x_y">
+						<title value=""/>
+						<axeX variableName="TIME">
+							<titleAxe value="TIME"/>
+							<scale scaleType="auto"/>
+						</axeX>
+						<axeY>
+							<titleAxe value=""/>
+							<scale scaleType="auto"/>
+						</axeY>
+						<chartStyles>
+							<var name="Unit_Sterilizer_1.st1.TA" nick=""/>
+							<var name="Unit_Sterilizer_1.st1.TB" nick=""/>
+							<var name="Unit_Sterilizer_1.st1.TR" nick=""/>
+						</chartStyles>
+					</plot>
+			</plotWindow>
+			<plotWindow title="Plot_2" x="0" y="0" dx="550" dy="350">
+				<plot id="Plot_2" graphType="plot_x_y">
+						<title value=""/>
+						<axeX variableName="TIME">
+							<titleAxe value="TIME"/>
+							<scale scaleType="auto"/>
+						</axeX>
+						<axeY>
+							<titleAxe value=""/>
+							<scale scaleType="auto"/>
+						</axeY>
+						<chartStyles>
+							<var name="Cart_storage_1.v_carros" nick=""/>
+							<var name="Cart_storage_1.n_carts" nick=""/>
+							<var name="Cart_storage_1.batch_in_ster.signal" nick=""/>
+							<var name="Cart_storage_1.batch_ready.signal" nick=""/>
+						</chartStyles>
+					</plot>
+			</plotWindow>
+		</tab>
+	</experimentViews>
+
+	<watch width="808" height="728" visible="true" pos="right" >
+		<currentTab name="inputs"/>
+		<variables>
+			<tab name="initial"> 
+			</tab> 
+			<tab name="inputs"> 
+				<var name="Unit_Sterilizer_1.start.signal" value="1"/>
+				<var name="Cart_storage_1.v_carros" value="10"/>
+				<var name="Cart_storage_1.batch_in_ster.signal" value="1"/>
+				<var name="Cart_storage_1.batch_ready.signal" value="1"/>
+				<var name="Unit_Sterilizer_1.stage.signal" value="2"/>
+				<var name="Unit_Sterilizer_1.st1.stage.signal" value="2"/>
+				<var name="Unit_Sterilizer_1.v_st1.Ap.signal" value="0"/>
+			</tab> 
+			<tab name="view"> 
+				<var name="Cart_storage_1.batch_in_ster.signal"/>
+				<var name="Cart_storage_1.batch_ready.signal"/>
+				<var name="Unit_Sterilizer_1.st1.batch_in_ster.signal"/>
+				<var name="Unit_Sterilizer_1.st1.batch_ready.signal"/>
+				<var name="Unit_Sterilizer_1.st1.stage.signal"/>
+				<var name="Unit_Sterilizer_1.st1.start.signal"/>
+				<var name="Unit_Sterilizer_1.st1.TR"/>
+				<var name="Unit_Sterilizer_1.st1.Trm"/>
+				<var name="Unit_Sterilizer_1.st1.trm"/>
+				<var name="Unit_Sterilizer_1.st1.trm_ref"/>
+				<var name="Unit_Sterilizer_1.v_st1.Ap.signal"/>
+				<var name="Cart_storage_1.t_carga"/>
+				<var name="Cart_storage_1.n_carts"/>
+				<var name="Cart_storage_1.flag"/>
+				<var name="Unit_Sterilizer_1.steam_in.P"/>
+				<var name="Unit_Sterilizer_1.st1.TA"/>
+				<var name="Unit_Sterilizer_1.st1.TB"/>
+				<var name="Unit_Sterilizer_1.v_st1.f_in.W"/>
+				<var name="Unit_Sterilizer_1.st1.psi"/>
+				<var name="Unit_Sterilizer_1.st1.qA"/>
+				<var name="Unit_Sterilizer_1.st1.steam_in.W"/>
+				<var name="Unit_Sterilizer_1.st1.Uw2"/>
+				<var name="Cart_storage_1.t_gen"/>
+				<var name="Cart_storage_1.t_incr"/>
+				<var name="Unit_Sterilizer_1.st1.steam_in.P"/>
+			</tab> 
+		</variables>
+		<layout>
+			<tab name="initial"> 
+				<column name="name" width="92"/> 
+				<column name="value" width="100"/> 
+				<column name="units" width="100"/> 
+				<column name="category" width="100"/> 
+				<column name="type" width="100"/> 
+			</tab> 
+			<tab name="inputs"> 
+				<column name="name" width="227"/> 
+				<column name="value" width="100"/> 
+				<column name="units" width="100"/> 
+				<column name="category" width="100"/> 
+			</tab> 
+			<tab name="view"> 
+				<column name="name" width="250"/> 
+				<column name="value" width="100"/> 
+				<column name="units" width="100"/> 
+				<column name="category" width="100"/> 
+			</tab> 
+		</layout>
+	</watch>
+
+
+
+
+
+	<outputWindow height="202" width="1920" visible="true" pos="bottom" />
+
+	<alarms globalEnabled="TRUE">
+	</alarms>
+
+
+	<mainWindow  mode="maximized" currentTab="Tab_1" />
+
+
+</experiment>

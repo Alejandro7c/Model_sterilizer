@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE sym SYSTEM "DTDFILE_FULLPATH">
+
+<palette version="1.2.0" sx="480" sy="320" aliasingInShapes="true" aliasingInUnitSymbols="true" simulation-status="allshowed" >
+
+	<grid enabled="true" snap="true" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="4" margin="true" />
+
+	<componentType id="Unit_Sterilizer" >
+
+		<ellipse id="Ellipse_1" cx="226" cy="84" rx="10" ry="40" dx="-10" color="96,181,255"  />
+
+		<ellipse id="Ellipse_2" cx="226" cy="84" rx="10" ry="40" dx="-150" color="96,181,255"  />
+
+		<rect id="Rectangle_1" cx="146" cy="84" sx="140" sy="80" color="96,181,255"  />
+
+		<rect id="Rectangle_2" cx="202" cy="84" sx="4" sy="88" dx="12" color="8,156,255"  />
+
+		<rect id="Rectangle_3" cx="202" cy="84" sx="4" sy="88" dx="-124" color="8,156,255"  />
+
+		<port id="steam_in" library="STERILIZER" type="vapor"  hotPort="steam_in" >
+		
+				<symbol dx="96" dy="28" onLabel="true" />
+		
+				<label cx="30.5" cy="12" dx="27" dy="16" />
+		
+		</port>
+
+		<port id="stage" library="STERILIZER" type="analog_signal"  hotPort="stage" >
+		
+				<symbol dx="172" dy="140" onLabel="true" />
+		
+				<label cx="20" cy="12" dx="180" dy="128" />
+		
+		</port>
+
+		<port id="start" library="STERILIZER" type="analog_signal"  hotPort="start" >
+		
+				<symbol dx="244" dy="80" onLabel="true" />
+		
+				<label cx="17" cy="12" dx="202" dy="68" />
+		
+		</port>
+
+		<port id="batch_in_ster" library="STERILIZER" type="analog_signal" >
+		
+				<symbol dx="244" dy="96" onLabel="true" />
+		
+				<label cx="43" cy="12" dx="252" dy="84" />
+		
+		</port>
+
+		<port id="batch_ready" library="STERILIZER" type="analog_signal" >
+		
+				<symbol dx="148" dy="140" onLabel="true" />
+		
+				<label cx="39.5" cy="12" dx="61" dy="128" />
+		
+		</port>
+
+		<editor used="false">
+		</editor>
+
+	</componentType>
+</palette>

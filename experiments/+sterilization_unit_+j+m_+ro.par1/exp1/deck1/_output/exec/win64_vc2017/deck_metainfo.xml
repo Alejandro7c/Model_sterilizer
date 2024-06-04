@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DeckMetainfo version="1.0">
+<data>
+ <var id="Cart_storage_1.cart_in" type="INTEGER" category="DISCRETE" inputUnits="" inputCandidates="" inputValue="0" deckin="PUBLIC" deckout="PUBLIC" control="FALSE" controlValues="" pos=""/>
+ <var id="Cart_storage_1.start.signal" type="REAL" category="BOUNDARY" inputUnits="" inputCandidates="" inputValue="0" deckin="PUBLIC" deckout="PUBLIC" control="FALSE" controlValues="" pos=""/>
+ <var id="Cart_storage_1.v_carros" type="REAL" category="BOUNDARY" inputUnits="" inputCandidates="" inputValue="0" deckin="PUBLIC" deckout="PUBLIC" control="FALSE" controlValues="" pos=""/>
+ <var id="Unit_Sterilizer_1.st1.TR" type="REAL" category="DYNAMIC" inputUnits="" inputCandidates="" inputValue="0" deckin="NO" deckout="PUBLIC" control="FALSE" controlValues="" pos=""/>
+ <var id="Unit_Sterilizer_1.st1.batch_in_ster.signal" type="REAL" category="BOUNDARY" inputUnits="" inputCandidates="" inputValue="0" deckin="PUBLIC" deckout="PUBLIC" control="FALSE" controlValues="" pos=""/>
+ <var id="Unit_Sterilizer_1.st1.batch_ready.signal" type="REAL" category="BOUNDARY" inputUnits="" inputCandidates="" inputValue="0" deckin="PUBLIC" deckout="PUBLIC" control="FALSE" controlValues="" pos=""/>
+</data>
+<info>
+ <name id=""/>
+ <platforms id=""/>
+ <version id="1.0"/>
+ <supplier id=""/>
+ <customer id=""/>
+ <subject id=""/>
+ <usert id="no"/>
+ <usecardpackbinary id="yes"/>
+ <usecardpackfile id="no"/>
+ <uselog id="no"/>
+</info>
+</DeckMetainfo>

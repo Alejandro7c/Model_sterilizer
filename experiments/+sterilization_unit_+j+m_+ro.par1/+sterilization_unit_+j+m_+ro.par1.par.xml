@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<partitionInfo version="1.0" library="STERILIZER" component="Sterilization_unit_JM_Ro" partition="par1">
+<noDerivatives value="FALSE"/>
+<inhibitReductionConstantCoefEqts value="FALSE"/>
+<generatePartitionClass value="FALSE"/>
+<removeNotUsedVars value="FALSE"/>
+<showPropertyPanel value="FALSE"/>
+<generateProtectedMathFunctions value="TRUE"/>
+<generatePerformanceMeters value="FALSE"/>
+<generateObfuscatedCpp value="FALSE"/>
+<settingParObfuscatedStringsCpp value="FALSE"/>
+<settingParPrintCommentsCpp value="FALSE"/>
+<generateParInfoHTML value="TRUE"/>
+<generateParInfoExtra value="FALSE"/>
+<generateMaxSignificantDigits value="TRUE"/>
+<generateParResiduesForDiff value="FALSE"/>
+<generateAdvancedBox value="disabled"/>
+<boundaries>
+  <variable name="Cart_storage_1.start.signal"/>
+  <variable name="Cart_storage_1.v_carros"/>
+  <variable name="Unit_Sterilizer_1.st1.batch_in_ster.signal"/>
+  <variable name="Unit_Sterilizer_1.st1.batch_ready.signal"/>
+  <variable name="Unit_Sterilizer_1.stage.signal"/>
+  <variable name="Unit_Sterilizer_1.v_st1.Ap.signal"/>
+</boundaries>
+<dynamics>
+  <variable name="Unit_Sterilizer_1.st1.mod[01]"/>
+  <variable name="Unit_Sterilizer_1.st1.mod[02]"/>
+  <variable name="Unit_Sterilizer_1.st1.mod[03]"/>
+  <variable name="Unit_Sterilizer_1.st1.mod[04]"/>
+  <variable name="Unit_Sterilizer_1.st1.mod[05]"/>
+  <variable name="Unit_Sterilizer_1.st1.mod[06]"/>
+  <variable name="Unit_Sterilizer_1.st1.mod[07]"/>
+  <variable name="Unit_Sterilizer_1.st1.mod[08]"/>
+  <variable name="Unit_Sterilizer_1.st1.mod[09]"/>
+  <variable name="Unit_Sterilizer_1.st1.mod[10]"/>
+  <variable name="Unit_Sterilizer_1.st1.mod[11]"/>
+  <variable name="Unit_Sterilizer_1.st1.mod[12]"/>
+  <variable name="Unit_Sterilizer_1.st1.TA"/>
+  <variable name="Unit_Sterilizer_1.st1.TB"/>
+  <variable name="Unit_Sterilizer_1.st1.TR"/>
+  <variable name="Unit_Sterilizer_1.st1.F0"/>
+  <variable name="Unit_Sterilizer_1.st1.lC"/>
+</dynamics>
+<residues>
+</residues>
+</partitionInfo>

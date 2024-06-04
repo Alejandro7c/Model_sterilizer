@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE sym SYSTEM "DTDFILE_FULLPATH">
+
+<palette version="1.2.0" sx="480" sy="320" aliasingInShapes="true" aliasingInUnitSymbols="true" simulation-status="allshowed" >
+
+	<grid enabled="true" snap="true" hspacing="4" vspacing="4" colorMain="210,210,210" colorSecondary="243,243,243" numberCells="4" margin="true" />
+
+	<componentType id="Valvula_v" >
+
+		<polygon id="Polygon_2" points="160,112 160,80 112,112 112,80" color="255,68,62"  />
+
+		<port id="f_in" library="STERILIZER" type="vapor"  hotPort="f_in" >
+		
+				<symbol dx="104" dy="96" onLabel="true" />
+		
+				<label cx="14" cy="12" dx="68" dy="84" />
+		
+		</port>
+
+		<port id="Ap" library="STERILIZER" type="analog_signal"  hotPort="Ap" >
+		
+				<symbol dx="135" dy="83" onLabel="true" />
+		
+				<label cx="12" cy="12" dx="103" dy="71" />
+		
+		</port>
+
+		<port id="f_out" library="STERILIZER" type="vapor"  hotPort="f_out" >
+		
+				<symbol dx="168" dy="96" onLabel="true" />
+		
+				<label cx="18" cy="12" dx="176" dy="84" />
+		
+		</port>
+
+		<editor used="false">
+		</editor>
+
+	</componentType>
+</palette>
