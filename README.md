@@ -3,8 +3,8 @@ Mathematical model of sterilizer of cans
 This model represents the model of a tuna can sterilizer, it contains several components.
 - Physicochemical components
 - Ports to connect components
-- Carts generation (Sources/Carts.el)
-- Sterilizer (Sources/Sterilizer_ext_matrix_POD.el)
+- Carts generation [Carts](Sources/Carts.el)
+- Sterilizer [Sterilizer](Sources/Sterilizer_ext_matrix_POD.el)
 - Steam valve (Sorces/Valve.el)
 - Sources (Sorces/sources.el)
 
