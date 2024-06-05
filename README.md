@@ -17,6 +17,11 @@ Pitarch, J. L., Vilas, C., de Prada, C., Palacín, C. G., & Alonso, A. A. (2021)
 
 Some equations related to the heat transfer coefficient and some physical properties have been developed by Santos Galán Casado and  Daniel Hernández Garrigues From Department of Chemical Engineering, Universidad Politécnica de Madrid
 
-# Standalone execution
+## Workspace importation
+You can import the workspace ready to import in EcosimPro, by downloadinf the file ([Sterilizer.pke]Sterilizer.pke)
+
+
+
+## Standalone execution
 The model can be executed independently via OPC UA Server of the simulation model for the sterilization Unit with cart generation.
-You can download the zip file []wdwdw and execute dos_win64_vrc1.exe to run the OPC server.
+You can download the [zip file](Sterilizer.pke), import the workspace in  and execute dos_win64_vrc1.exe to run the OPC server.
