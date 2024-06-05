@@ -21,6 +21,6 @@ Some equations related to the heat transfer coefficient and some physical proper
 You can import a workspace ready to import in EcosimPro, by downloading the file [Sterilizer.pke](Sterilizer.pke)
 
 
-## Standalone execution
+## Standalone OPC UA Server
 The model can be executed independently via OPC UA Server of the simulation model for the sterilization Unit with cart generation.
-You can download the [zip file](Sterilizer.pke), import the workspace in  and execute dos_win64_vrc1.exe to run the OPC server.
+You can download the [zip file](win64_vcr1.zip), import the workspace in  and execute dos_win64_vrc1.exe to run the OPC server.
